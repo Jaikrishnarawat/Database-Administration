@@ -1,0 +1,14 @@
+Rebuild indexes
+Update statistics
+Database consistency checks
+Cleanup old backups
+
+
+
+Rebuild Indexes: Recreating a table's indexes from scratch to eliminate fragmentation, reclaim disk space, and restore optimal search speeds.
+
+Update Statistics: Refreshing the database engine's internal data distribution maps so the query optimizer can choose the fastest execution paths.
+
+Database Consistency Checks: Running low-level structural integrity scans (like DBCC CHECKDB) to catch internal allocation errors or data corruption early.
+
+Cleanup Old Backups: Automatically purging expired backup files and history records from storage disks to prevent drives from running out of space.
