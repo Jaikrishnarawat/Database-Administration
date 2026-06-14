@@ -1,0 +1,30 @@
+Knowledge of:
+Microsoft Azure SQL Database
+Amazon Web Services RDS
+Google Cloud SQL
+Important topics:
+Automated backups
+Scaling
+Monitoring
+Security
+
+
+
+
+Cloud Database Platforms
+Microsoft Azure SQL Database: A fully managed, cloud-native relational database service built on the SQL Server engine that automatically handles patching, scaling, and backups.
+
+Amazon Web Services RDS: A managed platform service that simplifies the setup, operation, and scaling of six popular relational database engines in the AWS cloud.
+
+Google Cloud SQL: A fully managed Google Cloud database service that automates replication, logging, and capacity management for MySQL, PostgreSQL, and SQL Server.
+
+
+
+Core Cloud Management Topics
+Automated Backups: A cloud feature that automatically captures regular database snapshots and transaction logs, storing them with built-in retention policies for easy restoration.
+
+Scaling: The ability to dynamically increase or decrease compute (CPU, RAM) and storage resources instantly to match changing application workloads.
+
+Monitoring: Cloud-native dashboards and alerting systems (like CloudWatch or Azure Monitor) that track resource metrics and query performance in real time.
+
+Security: Integrated cloud guardrails providing automated firewall rules, identity access management, network isolation, and default data encryption at rest and in transit.
