@@ -1,0 +1,11 @@
+Install SQL Server
+Configure database instances
+Configure memory and CPU settings
+Configure network protocols
+
+
+
+Install SQL Server: Running the installation setup wizard to deploy the core database engine files onto a host operating system.
+Configure database instances: Setting up isolated, independent copies of the SQL Server engine that run as distinct services on the same machine.
+Configure memory and CPU settings: Defining specific RAM allocations and CPU core affinities to optimize server performance and prevent resource starvation.
+Configure network protocols: Enabling and setting up communication channels, like TCP/IP or Named Pipes, so client applications can connect to the database.
