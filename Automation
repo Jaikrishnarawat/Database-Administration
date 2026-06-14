@@ -1,0 +1,12 @@
+SQL Server Agent Jobs
+PowerShell scripts
+Maintenance Plans
+
+
+
+
+SQL Server Agent Jobs: An automated execution engine that runs scheduled tasks, scripts, and administrative workflows in the background based on predefined triggers or times.
+
+PowerShell Scripts: Command-line automation scripts used to programmatically manage, configure, and monitor multiple SQL Server instances and operating system resources simultaneously.
+
+Maintenance Plans: A built-in, visual workflow wizard in SQL Server used to easily schedule routine database health tasks like backups, index rebuilds, and integrity checks without writing code.
