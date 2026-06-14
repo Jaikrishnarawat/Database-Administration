@@ -1,0 +1,17 @@
+Database Mirroring
+Log Shipping
+Replication
+Clustering
+Always On Availability Groups
+
+
+
+Database Mirroring: A legacy high-availability technique that maintains a single standby copy of a database by continuously sending transaction log records to a mirror server.
+
+Log Shipping: An automated process that takes transaction log backups on a primary database, copies them across the network, and restores them onto one or more secondary servers on a strict schedule.
+
+Replication: A highly customizable technology that copies and distributes specific database objects (like individual tables or views) from one database to another in near real-time.
+
+Clustering (FCI): A hardware-level high-availability solution where multiple physical servers share a single storage array, allowing a secondary server to instantly take over the database service if the primary server fails.
+
+Always On Availability Groups: An advanced enterprise high-availability and disaster-recovery solution that allows you to fail over a defined group of databases automatically to multiple readable secondary replicas without requiring shared storage
