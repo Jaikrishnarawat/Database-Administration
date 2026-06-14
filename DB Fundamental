@@ -36,3 +36,38 @@ Database Programmability
 Stored Procedures: Saved, reusable blocks of complex SQL logic that can accept parameters and modify data.
 Functions: Reusable code blocks designed to accept parameters, perform calculations, and return a single value.
 Triggers: Automatic scripts that fire inherently when a specific action like an insert, update, or delete occurs
+
+
+
+
+1. Database Architecture & Core Concepts
+Question: What is the difference between a Database and a DBMS?
+Answer: A database is the physical collection of data files, while a DBMS is the software used to manage and access those files.
+Question: What are the four core properties of a database transaction?
+Answer: They are the ACID properties: Atomicity (all-or-nothing), Consistency (valid data), Isolation (independent transactions), and Durability (permanent saves).
+Question: What is the difference between DDL and DML commands?
+Answer: DDL (e.g., CREATE, DROP) alters database structures, whereas DML (e.g., INSERT, UPDATE) manipulates the data within those structures.
+
+2. Constraints & Data Integrity
+Question: What is the difference between a Primary Key and a Unique Key?
+Answer: A Primary Key uniquely identifies a row and forbids NULL values, whereas a Unique Key allows exactly one NULL value.
+Question: What does Referential Integrity mean?
+Answer: It ensures relationships between tables remain consistent by preventing foreign keys from pointing to non-existent primary keys.
+Question: What is a composite key?
+Answer: A composite key is a primary key that consists of two or more columns combined to uniquely identify a row.
+
+3. Normalization & Storage Design
+Question: What is the primary purpose of database normalization?
+Answer: To eliminate redundant data duplication and prevent data anomalies during inserts, updates, and deletes.
+Question: When would an engineer intentionally denormalize a database?
+Answer: In read-heavy systems (like data warehouses) to eliminate costly table joins and maximize query performance.
+Question: What is the difference between a clustered and a non-clustered index?
+Answer: A clustered index dictates the physical sorting order of rows on disk, while a non-clustered index forms a separate lookup pointer table.
+
+4. Query Execution & Optimization
+Question: What is a database deadlock?
+Answer: A standstill where two separate transactions freeze because each holds a lock on a resource that the other transaction needs.
+Question: What causes a "Full Table Scan" and why is it bad?
+Answer: Missing or bypassed indexes force the database engine to search every single disk page, destroying query performance on large datasets.
+Question: What does the GROUP BY clause do?
+Answer: It aggregates individual rows that share identical values into summary rows (e.g., finding the average salary per department).
