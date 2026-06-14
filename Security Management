@@ -1,0 +1,17 @@
+User creation
+Roles and permissions
+Authentication
+Authorization
+Data encryption
+
+
+
+User Creation: Defining unique account credentials within the database engine to identify individual people or applications requesting system access.
+
+Roles and Permissions: Grouping specific database access rights together and assigning them to users to simplify security administration.
+
+Authentication: The initial security check that verifies a user's identity via passwords, tokens, or integrated operating system credentials.
+
+Authorization: The secondary security check that determines exactly which tables, views, or operations an authenticated user is allowed to access.
+
+Data Encryption: Encoding sensitive data at rest on disks or in transit across networks using cryptographic keys to prevent unauthorized reading
