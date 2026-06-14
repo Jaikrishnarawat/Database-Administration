@@ -1,0 +1,38 @@
+RDBMS concepts
+Tables, Views, Indexes
+Primary Key, Foreign Key
+Normalization
+SQL Queries
+Joins (Inner, Left, Right, Full)
+Stored Procedures
+Functions and Triggers
+
+
+
+Core Objects & ArchitectureTables: 
+Structured grids of rows and columns used to permanently store raw data records.
+Views: Saved, virtual SQL queries that display real-time data without storing any data themselves.
+Indexes: Background lookup structures created on columns to accelerate search and retrieval speeds.
+
+
+Keys & Constraints
+Primary Key: A unique, non-null column that definitively identifies each distinct row in a table.
+Foreign Key: A column that links to another table's Primary Key to establish and enforce relationships
+
+
+Data Design & Operations
+Normalization: The process of organizing data across tables to eliminate redundancy and prevent data anomalies.
+SQL Queries: Standardised command lines used to define structures, manipulate records, and fetch data from a database.
+
+
+Table Joins
+Inner Join: Merges tables to return rows only where a matching value exists in both datasets.
+Left Join: Returns all records from the left table alongside matching rows from the right table.
+Right Join: Returns all records from the right table alongside matching rows from the left table.
+Full Join: Combines datasets to return all rows from both tables, regardless of where the match lies.
+
+
+Database Programmability
+Stored Procedures: Saved, reusable blocks of complex SQL logic that can accept parameters and modify data.
+Functions: Reusable code blocks designed to accept parameters, perform calculations, and return a single value.
+Triggers: Automatic scripts that fire inherently when a specific action like an insert, update, or delete occurs
