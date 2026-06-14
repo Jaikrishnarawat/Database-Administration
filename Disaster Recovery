@@ -1,0 +1,26 @@
+Prepare recovery plans for:
+Server failure
+Database corruption
+Data center outage
+Accidental data deletion
+Concepts:
+RPO (Recovery Point Objective)
+RTO (Recovery Time Objective)
+
+
+
+
+Disaster Recovery Scenarios
+Server Failure Plan: Restoring operations on new hardware or a standby node by deploying backups or initiating an automatic failover sequence.
+
+Database Corruption Plan: Running integrity checks to isolate damage, then repairing the files or restoring clean backups up to the point of failure.
+
+Data Center Outage Plan: Routing application traffic to a geographically distant secondary site where database replicas are hosted and ready for activation.
+
+Accidental Data Deletion Plan: Recovering lost records by using point-in-time log restorations, backup side-loads, or database snapshot rollbacks.
+
+Key Metrics
+RPO (Recovery Point Objective): The maximum duration of acceptable data loss measured in time, defining how frequently you must take backups.
+
+RTO (Recovery Time Objective): The maximum targeted duration of downtime allowed to completely restore database availability and bring systems online.
+
