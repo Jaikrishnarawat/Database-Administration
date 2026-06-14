@@ -11,16 +11,29 @@ backup verification
 
 
 Full Backup: Copies the entire database, capturing all data blocks to create a complete baseline for restoration.
+
 Differential Backup: Captures only the data that has changed since the last Full Backup, reducing backup size and speed.
+
 Transaction Log Backup: Records all database transaction history since the last log backup, allowing point-in-time recovery and keeping the log file from filling up.
+
 Simple Recovery Model: Automatically truncates the transaction log to reclaim space, eliminating the ability to perform transaction log backups or point-in-time recovery.
+
 Full Recovery Model: Logs all database transactions completely, requiring manual log backups to manage log size while enabling point-in-time recovery.
+
 Bulk-Logged Recovery Model: Optimizes performance by minimally logging bulk operations (like bulk inserts), while maintaining high-performance data safety with slightly reduced point-in-time recovery options.
+
 Restore Process: Reconstructing a damaged database by applying backups sequentially (Full, then Differential, then Logs) to return it to an operational state.
+
 Point-in-Time Recovery: Restoring a database to an exact, specific minute or second in the past by rolling forward transaction logbackups.
+
 Backup Compression: Using algorithms during the backup process to shrink the output file size, saving storage disk space and speeding up I/O times.
+
 Copy-Only Backup: A standalone backup that does not affect the existing backup sequence, breaking neither differential baselines nor log backup chains.
+
 Tail-Log Backup: Captures the final, unbacked-up transaction log data immediately before a restore operation begins to prevent any data loss.
+
 RPO (Recovery Point Objective): The maximum targeted period of acceptable data loss measured in time (e.g., losing no more than 15 minutes of data).
+
 RTO (Recovery Time Objective): The targeted duration of time allowed to restore the database and bring systems fully back online after a failure.
+
 Backup Verification: Running checks (like RESTORE VERIFYONLY) to confirm a backup file is physically intact, uncorrupted, and readable before an actual emergency occurs.
