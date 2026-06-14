@@ -1,0 +1,8 @@
+Prepare recovery plans for:
+Server failure
+Database corruption
+Data center outage
+Accidental data deletion
+Concepts:
+RPO (Recovery Point Objective)
+RTO (Recovery Time Objective)
